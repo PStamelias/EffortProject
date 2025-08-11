@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "EffortProject.Controllers.BasicController",
+    "Method": "FetchDataAsync",
+    "RelativePath": "api/FetchData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
