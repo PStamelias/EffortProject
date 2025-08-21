@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+publish/
+
+# Test artifacts
+*.sourcelink.json
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# Logs
+*.log
