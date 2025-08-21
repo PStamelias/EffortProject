@@ -21,7 +21,7 @@ namespace EffortProject.Controllers
         public async Task<IActionResult> FetchDataAsync()
         {
             var postTask  =    _postService.RetrievePostsAsync();
-            var jokesTask =  _jokeService.RetrieveJokesAsync();
+            var jokesTask =    _jokeService.RetrieveJokesAsync();
             await Task.WhenAll(postTask, jokesTask);
             var postsList = await postTask;
             var jokesList = await jokesTask;
