@@ -17,6 +17,7 @@ namespace EffortProject.MemoryServices
         }
         public async Task<List<Joke>> GetJokesAsync()
         {
+
             if (!_memoryCache.TryGetValue("Jokes", out List<Joke> jokeList))
             {
                 var initialJokeList= await _jokeApiService.GetDataFromApi();
